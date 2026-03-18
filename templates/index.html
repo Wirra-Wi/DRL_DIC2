@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Grid World</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+<body>
+    <h1>Grid World</h1>
+    <p>可以左鍵重新設置起點、終點與障礙物</p>
+    <div id="grid"></div>
+    <button id="compute">計算</button>
+    <script src="{{ url_for('static', filename='js/script.js') }}"></script>
+</body>
+</html>
